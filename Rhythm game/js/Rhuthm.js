@@ -22,7 +22,6 @@ KeyBotsProxy = new Proxy(status,{
         }
     }
 })
-
 function startGame(){//開始遊戲
     if(!timeUp) return
     showRandom()
@@ -53,8 +52,8 @@ function setKetBots(KeyBot,time){ //哪幾個動畫啟動
         KeyBotsProxy[KeyBot] = false
     },time)
 }
-
 function playHandler(){
+    
 }
 document.querySelector('.start').addEventListener('click',startGame)
 window.addEventListener('keydown',playHandler)
