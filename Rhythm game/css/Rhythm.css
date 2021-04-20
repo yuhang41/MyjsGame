@@ -70,7 +70,7 @@ body{
     /* animation: keyBot 1s linear infinite; */
 }
 .playing{
-    animation: keyBot 1s linear;
+    animation: keyBot 1.5s linear;
 }
 @keyframes keyBot
 {
